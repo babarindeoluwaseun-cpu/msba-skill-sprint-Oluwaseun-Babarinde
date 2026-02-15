@@ -1,0 +1,10 @@
+# Implementation Plan
+
+## What this repo does
+This project demonstrates a simple ETL (Extract, Transform, Load) pipeline that reads raw data, processes it, and stores it inside a SQLite database.
+
+## What would need to change for a real company
+- Replace sample data with production data source
+- Add scheduled automated runs (daily/weekly)
+- Add logging and error handling
+- Store database on a shared server instead of local machine
